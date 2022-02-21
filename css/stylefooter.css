@@ -1,0 +1,31 @@
+.tin3{
+    width: 380px;
+    height: 180px;
+    float: left;
+    padding: 20px;
+    margin: 20px;   
+}
+h2{
+    font-size: 20px;
+}
+.footer {
+    background: rgb(208, 208, 221);
+    
+}  
+.cd{
+    display: inline;
+}
+.tin4{
+    width: 200px;
+    float: left;
+    padding: 20px;
+    margin: 20px;
+}
+.map{
+    padding: 20px;
+    margin: 20px;
+}
+.img4{
+    width: 30px;
+    height: 30px;
+}

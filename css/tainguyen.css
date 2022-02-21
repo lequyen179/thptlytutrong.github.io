@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Times New Roman;
+    padding: 10px;
+    background: rgb(128, 195, 197);
+}
+.header{
+    text-align: center;
+    background: rgb(239, 210, 241);
+    padding: 10px;
+    color:rgb(17, 17, 17);
+    font-size: 20px;
+}
+.menu>ul>li{
+    display:inline-block;
+    position:relative;
+}
+.menu>ul>li>a{
+display:block;
+text-decoration:none;
+font-variant:small-caps;
+font-size:larger;
+color:rgb(255, 40, 2);
+padding:0 10px;
+height:40px;
+font-size: 25px;
+}
+.menu>ul{
+padding:0px;
+margin:0px;
+list-style:none;
+border-radius:3px;
+background-color:rgb(239, 210, 241);
+line-height: 50px;
+}
+.menu>ul>li>a:hover{
+color:rgb(6, 58, 55);
+}
+.menu ul ul{
+position:absolute;
+display:none;
+padding:0px;
+margin:0px;
+list-style:none;
+border-radius:3px;
+width:300px;
+background-color:white;
+box-shadow:0 0 1px gray;
+}
+.menu ul ul a{
+display:block;
+line-height:30px;
+color:orangered;
+text-decoration:none;
+font-variant:small-caps;
+font-size:larger;
+padding-left: 5px;
+}
+.menu>ul>li:hover>ul{
+display:block;
+}
+.menu ul ul a:hover{
+background-color:orangered;
+color:white;
+}
+.run{
+    height: 35px;
+    background-color:cornsilk;
+    font-size: 25px;
+    color: rgb(255, 40, 2);
+}
+.thantrai{
+    float: left;
+    width: 49%;
+    text-align: left;
+    padding-left: 30px;
+    border: gray solid 2px;
+}
+.thanphai{
+    float: right;
+    width: 49%;
+    text-align: left;
+    border: gray solid 2px;
+    padding-left: 30px;
+}
+.than::after{
+    content:"";
+    display: table;
+    clear:both;
+}
+.hinh{
+    width: 650px;
+    height: 400px;
+}
+.con1{
+    float: left;
+    width: 50%;
+    text-align: left;
+    border-right: gray solid 2px;
+}
+.con1 :hover{
+    background-color: aquamarine;
+    box-shadow:  0px 0px 5px 5px rgb(115, 230, 163);
+
+}
+.con2 :hover{
+    background-color: aquamarine;
+    
+}
+.con2{
+    float: right;
+    width: 50%;
+    text-align: left;
+   
+    padding-left: 5px;
+}
+.hinhcon{
+    width: 320px;
+    height: 180px;
+}
+.baiviet>p{
+    font-size: 21px;
+}
+.thantrai1>.con3,
+.thantrai1>.baiviet1,
+.thantrai1>.con4{
+    text-align: justify;
+}
+.thantrai1{
+    float: left;
+    width: 49%;
+    text-align: left;
+    padding-left: 30px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.thanphai1{
+    float: right;
+    width: 49%;
+    text-align: left;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.con3{
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+.con4{
+    width: 70%;
+    float: right;
+    text-align: left;
+}
+.baiviet1>p{
+    font-size: 15px;
+    font-style:italic;
+}
+.con3>p{
+    font-weight: bold;
+}
+.hinh2{
+    width: 460px;
+    margin: auto;
+    
+}
+.than{
+    background-color: aliceblue;
+}
